@@ -1,0 +1,19 @@
+{
+  "name": "ui_api",
+  "version": "1.0.0",
+  "description": "UI Api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "randy",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "debug": "^2.2.0",
+    "express": "^4.14.0",
+    "seneca": "^2.1.0",
+    "seneca-entity": "^1.2.0",
+    "seneca-mongo-store": "^0.2.0",
+    "type-is": "^1.6.13"
+  }
+}
