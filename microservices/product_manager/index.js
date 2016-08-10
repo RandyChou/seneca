@@ -17,6 +17,10 @@ seneca.ready(function(err) {
         fetch: {
           GET: true
         },
+        add: {
+          GET: false,
+          POST: true
+        },
         edit: {
           GET: false,
           POST: true

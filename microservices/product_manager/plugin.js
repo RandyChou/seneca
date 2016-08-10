@@ -50,7 +50,6 @@ module.exports = function(options) {
     products.category = args.category;
     products.name = args.name;
     products.description = args.description;
-    products.category = args.category;
     products.price = args.price
     products.save$(function(err, product) {
       done(err, products.data$(false));
