@@ -1,2 +1,2 @@
 # seneca
-use seneca 
+使用node微服务框架简单实现微服务的示例
